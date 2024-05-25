@@ -158,6 +158,12 @@ document.getElementById('shop').addEventListener('click', function() {
    else if(shop_name === "Sainsbury's"){
     document.getElementById('bg_image').src = 'image/synsbary.png';
    }
+   else if(shop_name === "Tesco Superstore"){
+    document.getElementById('bg_image').src = 'image/tesco_super.png';
+   }
+   else if(shop_name === "Sell"){
+    document.getElementById('bg_image').src = 'image/sell.png';
+   }
 })
 
 // document.getElementById('nameChanger').addEventListener('click', function () {
